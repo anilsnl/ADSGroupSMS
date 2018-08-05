@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ADSGroupSMS.Views.GroupSMSConfirm" >
+    <ContentPage.Content>
+
+        <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Column="0" Grid.Row="0" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Black">
+                <Label Text="Message" HeightRequest="20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Label>
+                <Label x:Name="txtMessage" Text="{Binding SMSText}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+                        BackgroundColor="Red" TextColor="LightBlue" HeightRequest="120" Margin="0,5,0,5"></Label>
+            </StackLayout>
+            <ListView Grid.Row="1" Grid.Column="0" BackgroundColor="Black" ItemsSource="{Binding Contacts}" SelectionMode="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Name}" Detail="{Binding Phone}" TextColor="White" DetailColor="LightBlue"
+                                ></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Grid Grid.Row="2" Grid.Column="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Button Text="Back" Clicked="btnBack_Clicked" x:Name="btnBack" Grid.Column="1" Grid.Row="0"
+                        ></Button>
+                <Button Text="Send" Clicked="btnSend_Clicked" x:Name="btnSend" Grid.Column="0" Grid.Row="0"
+                        ></Button>
+                
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

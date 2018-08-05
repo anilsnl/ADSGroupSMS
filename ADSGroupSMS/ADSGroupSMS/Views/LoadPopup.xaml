@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<page:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:page="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup" 
+             xmlns:img="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="ADSGroupSMS.Views.LoadPopup">
+    <page:PopupPage.Content>
+        <StackLayout x:Name="stcMain" BackgroundColor="Black" VerticalOptions="Center" HorizontalOptions="Center" >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <img:CachedImage Source="load.gif" Aspect="AspectFit" BackgroundColor="Black" Margin="0,5,0,5"></img:CachedImage>
+                <Label x:Name="txtMessage"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"
+                   BackgroundColor="Black"
+                   Grid.Row="1"
+                   TextColor="White"
+                   FontSize="Default"
+                   Margin="0,0,0,5" />
+            </Grid>
+             
+        </StackLayout>
+    </page:PopupPage.Content>
+       
+   
+</page:PopupPage>

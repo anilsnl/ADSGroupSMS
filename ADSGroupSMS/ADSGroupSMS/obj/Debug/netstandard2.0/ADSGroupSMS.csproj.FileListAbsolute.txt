@@ -1,0 +1,16 @@
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\bin\Debug\netstandard2.0\ADSGroupSMS.deps.json
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\bin\Debug\netstandard2.0\ADSGroupSMS.dll
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\bin\Debug\netstandard2.0\ADSGroupSMS.pdb
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\ADSGroupSMS.csproj.CoreCompileInputs.cache
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\ADSGroupSMS.AssemblyInfoInputs.cache
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\ADSGroupSMS.AssemblyInfo.cs
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\ADSGroupSMS.dll
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\ADSGroupSMS.pdb
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\Views\NewSMSGroup.xaml.g.cs
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\Views\MultiSelectContactPopup.xaml.g.cs
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\ADSGroupSMS.csprojAssemblyReference.cache
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\Views\LoadPopup.xaml.g.cs
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\anild\source\repos\ADSGroupSMS\ADSGroupSMS\ADSGroupSMS\obj\Debug\netstandard2.0\Views\GroupSMSConfirm.xaml.g.cs

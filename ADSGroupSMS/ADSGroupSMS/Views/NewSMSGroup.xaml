@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="Black"
+             x:Class="ADSGroupSMS.Views.NewSMSGroup">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="btnNext" Text="Next" Order="Primary" Clicked="btnNext_Clicked"
+            ></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Button Text="Select Cotact" BackgroundColor="DimGray" HorizontalOptions="FillAndExpand"  TextColor="White"
+                    x:Name="btnSelectContact" Clicked="btnSelectContact_Clicked"
+                 ></Button>
+            <Entry x:Name="txtMessage" Placeholder="Type your message" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Red" TextColor="White" PlaceholderColor="LightBlue"
+                 Text="{Binding SMSText}" ></Entry>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
